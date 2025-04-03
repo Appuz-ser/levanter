@@ -46,7 +46,7 @@ module.exports = {
   ANTISPAM_MSG: process.env.ANTISPAM_MSG || '_Antispam Detected &mention kicked_',
   ANTIWORDS_MSG: process.env.ANTIWORDS_MSG || '_AntiWord Detected &mention kicked_',
   ANTIWORDS: process.env.ANTIWORDS || 'word',
-  MENTION: process.env.MENTION || '',
+  MENTION: process.env.MENTION || '{"linkPreview":{"head":"ᯤSpotify","body":" -` 𝝇𐑾𝜐ꭗʾʾʾʾ🦠","showAdAttribution":true,"renderLargerThumbnail":true,"mediaType":1,"thumbnail":"https://files.catbox.moe/2hzqb9.jpg","containsAutoReply":true,"thumbnailUrl":"https://www.instagram.com/_.4ppuuu","sourceUrl":"https://www.instagram.com/_.4ppuuu"},"waveform":[0,33,0,99]}',
   MAX_UPLOAD: process.env.MAX_UPLOAD || 230,
   REJECT_CALL: process.env.REJECT_CALL,
   VPS: toBool(process.env.VPS),
